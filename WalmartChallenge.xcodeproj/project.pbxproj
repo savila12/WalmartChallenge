@@ -9,25 +9,43 @@
 /* Begin PBXBuildFile section */
 		01541CE526A8695E0070A5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CE426A8695E0070A5F8 /* AppDelegate.swift */; };
 		01541CE726A8695E0070A5F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CE626A8695E0070A5F8 /* SceneDelegate.swift */; };
-		01541CE926A8695E0070A5F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CE826A8695E0070A5F8 /* ViewController.swift */; };
+		01541CE926A8695E0070A5F8 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CE826A8695E0070A5F8 /* MovieListViewController.swift */; };
 		01541CEC26A8695E0070A5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01541CEA26A8695E0070A5F8 /* Main.storyboard */; };
 		01541CEE26A869630070A5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01541CED26A869630070A5F8 /* Assets.xcassets */; };
 		01541CF126A869630070A5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01541CEF26A869630070A5F8 /* LaunchScreen.storyboard */; };
 		01541CF926A869970070A5F8 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CF826A869970070A5F8 /* Movies.swift */; };
 		01541CFB26A869CD0070A5F8 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541CFA26A869CD0070A5F8 /* MoviesView.swift */; };
+		01541D0126A8704A0070A5F8 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D0026A8704A0070A5F8 /* APIHandler.swift */; };
+		01541D0326A871FD0070A5F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D0226A871FD0070A5F8 /* Constants.swift */; };
+		01541D0526A873960070A5F8 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D0426A873960070A5F8 /* Genres.swift */; };
+		01541D0726A876310070A5F8 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D0626A876310070A5F8 /* EndPoints.swift */; };
+		01541D0926A87D980070A5F8 /* CustomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D0826A87D980070A5F8 /* CustomCollectionViewController.swift */; };
+		01541D5926AA6CC00070A5F8 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D5826AA6CC00070A5F8 /* MovieDetailsViewController.swift */; };
+		01541D5B26AA71F50070A5F8 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01541D5A26AA71F40070A5F8 /* DetailsViewModel.swift */; };
+		F51A9C108CDF04A4DC28ABD4 /* Pods_WalmartChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8614B249E38BF90E59F99112 /* Pods_WalmartChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01541CE126A8695E0070A5F8 /* WalmartChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01541CE426A8695E0070A5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01541CE626A8695E0070A5F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01541CE826A8695E0070A5F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01541CE826A8695E0070A5F8 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		01541CEB26A8695E0070A5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01541CED26A869630070A5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01541CF026A869630070A5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01541CF226A869630070A5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01541CF826A869970070A5F8 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		01541CFA26A869CD0070A5F8 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		01541D0026A8704A0070A5F8 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		01541D0226A871FD0070A5F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01541D0426A873960070A5F8 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		01541D0626A876310070A5F8 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		01541D0826A87D980070A5F8 /* CustomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewController.swift; sourceTree = "<group>"; };
+		01541D5826AA6CC00070A5F8 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		01541D5A26AA71F40070A5F8 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		69EA1B9B4F9B28B74ED890DD /* Pods-WalmartChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartChallenge.release.xcconfig"; path = "Target Support Files/Pods-WalmartChallenge/Pods-WalmartChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		8614B249E38BF90E59F99112 /* Pods_WalmartChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BAE04D99512A2CA01268A3 /* Pods-WalmartChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartChallenge.debug.xcconfig"; path = "Target Support Files/Pods-WalmartChallenge/Pods-WalmartChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51A9C108CDF04A4DC28ABD4 /* Pods_WalmartChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +65,8 @@
 			children = (
 				01541CE326A8695E0070A5F8 /* WalmartChallenge */,
 				01541CE226A8695E0070A5F8 /* Products */,
+				6AFBC4E1C117F69034EE5B13 /* Pods */,
+				EB1408E1CF5E865060B96AB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,31 +81,31 @@
 		01541CE326A8695E0070A5F8 /* WalmartChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				01541CF226A869630070A5F8 /* Info.plist */,
+				01541D5126A9BDC20070A5F8 /* Supported Files */,
+				01541CFF26A870270070A5F8 /* API Managers */,
 				01541CFE26A869EA0070A5F8 /* VIewModels */,
 				01541CFD26A869E00070A5F8 /* Model */,
-				01541CFC26A869D20070A5F8 /* Controller */,
-				01541CE426A8695E0070A5F8 /* AppDelegate.swift */,
-				01541CE626A8695E0070A5F8 /* SceneDelegate.swift */,
-				01541CEA26A8695E0070A5F8 /* Main.storyboard */,
-				01541CED26A869630070A5F8 /* Assets.xcassets */,
-				01541CEF26A869630070A5F8 /* LaunchScreen.storyboard */,
-				01541CF226A869630070A5F8 /* Info.plist */,
+				01541CFC26A869D20070A5F8 /* View */,
 			);
 			path = WalmartChallenge;
 			sourceTree = "<group>";
 		};
-		01541CFC26A869D20070A5F8 /* Controller */ = {
+		01541CFC26A869D20070A5F8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				01541CE826A8695E0070A5F8 /* ViewController.swift */,
+				01541D5526A9C80A0070A5F8 /* Controllers */,
+				01541D5426A9C0190070A5F8 /* Storyboard */,
+				01541D5226A9BFC90070A5F8 /* Custom */,
 			);
-			path = Controller;
+			path = View;
 			sourceTree = "<group>";
 		};
 		01541CFD26A869E00070A5F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				01541CF826A869970070A5F8 /* Movies.swift */,
+				01541D0426A873960070A5F8 /* Genres.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,8 +114,73 @@
 			isa = PBXGroup;
 			children = (
 				01541CFA26A869CD0070A5F8 /* MoviesView.swift */,
+				01541D5A26AA71F40070A5F8 /* DetailsViewModel.swift */,
 			);
 			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		01541CFF26A870270070A5F8 /* API Managers */ = {
+			isa = PBXGroup;
+			children = (
+				01541D0026A8704A0070A5F8 /* APIHandler.swift */,
+				01541D0626A876310070A5F8 /* EndPoints.swift */,
+			);
+			path = "API Managers";
+			sourceTree = "<group>";
+		};
+		01541D5126A9BDC20070A5F8 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				01541CE626A8695E0070A5F8 /* SceneDelegate.swift */,
+				01541CE426A8695E0070A5F8 /* AppDelegate.swift */,
+				01541CED26A869630070A5F8 /* Assets.xcassets */,
+				01541D0226A871FD0070A5F8 /* Constants.swift */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		01541D5226A9BFC90070A5F8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				01541D0826A87D980070A5F8 /* CustomCollectionViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		01541D5426A9C0190070A5F8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				01541CEA26A8695E0070A5F8 /* Main.storyboard */,
+				01541CEF26A869630070A5F8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		01541D5526A9C80A0070A5F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01541CE826A8695E0070A5F8 /* MovieListViewController.swift */,
+				01541D5826AA6CC00070A5F8 /* MovieDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6AFBC4E1C117F69034EE5B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAE04D99512A2CA01268A3 /* Pods-WalmartChallenge.debug.xcconfig */,
+				69EA1B9B4F9B28B74ED890DD /* Pods-WalmartChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB1408E1CF5E865060B96AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8614B249E38BF90E59F99112 /* Pods_WalmartChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01541CF526A869630070A5F8 /* Build configuration list for PBXNativeTarget "WalmartChallenge" */;
 			buildPhases = (
+				A1D8EFBFE4859DE58D161698 /* [CP] Check Pods Manifest.lock */,
 				01541CDD26A8695E0070A5F8 /* Sources */,
 				01541CDE26A8695E0070A5F8 /* Frameworks */,
 				01541CDF26A8695E0070A5F8 /* Resources */,
+				D083D57AEC319A1FDBC89902 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,16 +250,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1D8EFBFE4859DE58D161698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalmartChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D083D57AEC319A1FDBC89902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartChallenge/Pods-WalmartChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartChallenge/Pods-WalmartChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalmartChallenge/Pods-WalmartChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01541CDD26A8695E0070A5F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01541CFB26A869CD0070A5F8 /* MoviesView.swift in Sources */,
-				01541CE926A8695E0070A5F8 /* ViewController.swift in Sources */,
+				01541D0726A876310070A5F8 /* EndPoints.swift in Sources */,
+				01541CE926A8695E0070A5F8 /* MovieListViewController.swift in Sources */,
 				01541CE526A8695E0070A5F8 /* AppDelegate.swift in Sources */,
+				01541D0526A873960070A5F8 /* Genres.swift in Sources */,
+				01541D5926AA6CC00070A5F8 /* MovieDetailsViewController.swift in Sources */,
+				01541D0126A8704A0070A5F8 /* APIHandler.swift in Sources */,
+				01541D0326A871FD0070A5F8 /* Constants.swift in Sources */,
+				01541D0926A87D980070A5F8 /* CustomCollectionViewController.swift in Sources */,
 				01541CF926A869970070A5F8 /* Movies.swift in Sources */,
 				01541CE726A8695E0070A5F8 /* SceneDelegate.swift in Sources */,
+				01541D5B26AA71F50070A5F8 /* DetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +452,7 @@
 		};
 		01541CF626A869630070A5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BAE04D99512A2CA01268A3 /* Pods-WalmartChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +471,7 @@
 		};
 		01541CF726A869630070A5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EA1B9B4F9B28B74ED890DD /* Pods-WalmartChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
